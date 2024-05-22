@@ -34,7 +34,7 @@ X_test = scaler.transform(X_test)
 
 from sklearn.linear_model import LogisticRegression
 
-# Inicializar y entrenar el modelo de regresion logística
+# Inicializar y entrenar el modelo de regresion logistica
 log_reg = LogisticRegression()
 log_reg.fit(X_train, y_train)
 
